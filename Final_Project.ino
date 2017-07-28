@@ -64,10 +64,6 @@ byte ampThreshold = 50;//raise if you have a very noisy signal
 void setup() {
   Serial.begin(9600);
   mySerial.begin (9600);
-  //playFirst();
-  //isPlaying = true;
-  //pause();
-  //isPlaying = false;
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
   pinMode(9, OUTPUT);
